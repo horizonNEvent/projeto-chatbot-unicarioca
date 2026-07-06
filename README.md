@@ -122,23 +122,7 @@ streamlit run app.py
 ```
 O Streamlit abrirá uma aba no seu navegador padrão no endereço `http://localhost:8501`.
 
----
-
-## 🌐 Deploy no Streamlit Cloud
-
-Para colocar o projeto online e compartilhar no LinkedIn:
-1. Suba este repositório no seu GitHub pessoal.
-2. Acesse o [Streamlit Community Cloud](https://share.streamlit.io/) e faça login com sua conta do GitHub.
-3. Clique em **"New App"** e selecione o repositório, a branch (ex: `main`) e o arquivo principal `app.py`.
-4. Em **"Advanced settings"**, adicione sua chave do Groq na caixa de secrets:
-   ```toml
-   GROQ_API_KEY = "gsk_suachaveaqui..."
-   ```
-5. Clique em **"Deploy"**! Sua aplicação estará disponível na web para qualquer um testar.
-
----
-
 ## ✒️ Autores
 
-*   **Desenvolvedor** - [Seu Nome](https://www.linkedin.com/in/seu-perfil/)
+*   **Desenvolvedor** - Bruno Vollu Sampaio
 *   Projeto acadêmico para fins de demonstração da disciplina de IA / NLP na **UniCarioca**.
